@@ -3,14 +3,14 @@ from datetime import datetime
 from colorama import init, Fore, Style
 import re
 
-# Initialize colorama
+
 init(autoreset=True)
 
-# Copyright and Author Information
+
 COPYRIGHT = "© 2024 Cengiz Berkay Kaya"
 AUTHOR = "Cengiz Berkay Kaya"
 
-# Commonly used ports to prioritize scanning
+
 COMMON_PORTS = [21, 22, 23, 25, 53, 80, 110, 123, 143, 161, 443, 445, 465, 587, 993, 995, 3306, 3389, 5432, 5900]
 
 
